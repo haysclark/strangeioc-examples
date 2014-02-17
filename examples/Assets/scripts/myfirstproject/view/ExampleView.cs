@@ -44,7 +44,7 @@ namespace strange.examples.myfirstproject
 			GameObject go = Instantiate(Resources.Load("Textfield")) as GameObject;
 			
 			TextMesh textMesh = go.GetComponent<TextMesh>();
-			textMesh.text = "http://www.thirdmotion.com";
+			textMesh.text = "http://strangeioc.wordpress.com";
 			textMesh.font.material.color = Color.red;
 			
 			Vector3 localPosition = go.transform.localPosition;

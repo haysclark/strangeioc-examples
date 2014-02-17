@@ -38,7 +38,7 @@ namespace strange.examples.myfirstproject
 			
 			//Call the service. Listen for a response
 			service.dispatcher.AddListener(ExampleEvent.FULFILL_SERVICE_REQUEST, onComplete);
-			service.Request("http://www.thirdmotion.com/ ::: " + counter.ToString());
+			service.Request("http://strangeioc.wordpress.com/ ::: " + counter.ToString());
 		}
 		
 		//The payload is in the form of a IEvent
