@@ -46,7 +46,7 @@ namespace strange.examples.signals
 			
 			//IExampleService defines fulfillSignal as part of its API
 			service.fulfillSignal.AddListener(onComplete);
-			service.Request("http://www.thirdmotion.com/ ::: " + counter.ToString());
+			service.Request("http://strangeioc.wordpress.com/ ::: " + counter.ToString());
 		}
 		
 		//The payload is now a type-safe string
