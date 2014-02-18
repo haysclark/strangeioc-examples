@@ -28,37 +28,57 @@
         </ul>
       </header>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h1>
+<a name="strangeioc-examples" class="anchor" href="#strangeioc-examples"><span class="octicon octicon-link"></span></a>StrangeIoC Examples</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<blockquote>
+<p>Examples version: v0.1.0 utilizing StrangeIoC v0.7.0</p>
+</blockquote>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h2>
+<a name="installation-of-examples" class="anchor" href="#installation-of-examples"><span class="octicon octicon-link"></span></a>Installation of Examples</h2>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="10-example-scenes-to-help-you-start-using-strangeioc" class="anchor" href="#10-example-scenes-to-help-you-start-using-strangeioc"><span class="octicon octicon-link"></span></a>1.0 Example scenes to help you start using StrangeIoC.</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h4>
+<a name="11-clone-the-strangeioc-examples-repo-from-github" class="anchor" href="#11-clone-the-strangeioc-examples-repo-from-github"><span class="octicon octicon-link"></span></a>1.1 Clone the 'strangeioc-examples' repo from GitHub</h4>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<ul>
+<li>in Terminal navigate to where you wnat the example project to live</li>
+<li>run 'git clone <a href="mailto:git@github.com">git@github.com</a>:haysclark/strangeioc-examples.git'</li>
+</ul><h4>
+<a name="12-initialize-and-update-the-repos-git-submodules-its-easy" class="anchor" href="#12-initialize-and-update-the-repos-git-submodules-its-easy"><span class="octicon octicon-link"></span></a>1.2 Initialize and Update the repo's git submodules, it's EASY!</h4>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>In terminal navigate into the 'strangeioc-examples'</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<ul>
+<li>run 'git submodule init' to Initialize all the git submodules (aka nested git repos)</li>
+<li>run 'git submodule update' to update all the git submodules (aka clone or pull nested git repos)</li>
+<li><p>DONE!</p></li>
+<li><p>Note: If for some reason you re-pull the example project and a module has been updated when just run 'git submodule update'</p></li>
+</ul><h3>
+<a name="20-using-the-examples-in-unity" class="anchor" href="#20-using-the-examples-in-unity"><span class="octicon octicon-link"></span></a>2.0 Using the examples in Unity</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h4>
+<a name="21-open-example-project-in-unity" class="anchor" href="#21-open-example-project-in-unity"><span class="octicon octicon-link"></span></a>2.1 Open 'example' Project in Unity</h4>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<p>In Unity</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<ul>
+<li>File -&gt; Open Project...</li>
+<li>Choose the 'Open Other...' button on bottom of Project Wizard dialog</li>
+<li>In 'Choose Project Directory' dialog navigate to 'strangeioc-example' folder and pick the 'exampes' folder. Click 'Open' button.</li>
+<li>Your should see 'Assets Progress' dialog as Unity imports assets.</li>
+<li>Once Unity is done you can now Open the Example scenes.</li>
+</ul><h4>
+<a name="21-open-example-scene-in-unity" class="anchor" href="#21-open-example-scene-in-unity"><span class="octicon octicon-link"></span></a>2.1 Open 'example' scene in Unity</h4>
+
+<ul>
+<li>File -&gt; Open Scene...</li>
+<li>In 'Load Scene' dialog navigate to the Scenes folder: Assets/scenes/[specific example]/[sceneFile].unity, one selected click 'Open'</li>
+<li>You ideall should not see any errors in the console and should just click the 'Play' button in Unity to get the example running.</li>
+</ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/haysclark">haysclark</a></p>
